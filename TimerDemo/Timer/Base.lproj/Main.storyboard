@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1mP-Cq-SlV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="MainVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Di3-6z-rGp">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="l0i-Zz-nng"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="T3B-xw-Fgo"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Di3-6z-rGp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-20" id="8Fc-Mh-0QS"/>
+                            <constraint firstItem="Di3-6z-rGp" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="HRk-rm-88U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Di3-6z-rGp" secondAttribute="trailing" constant="-20" id="d8u-41-xoW"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Di3-6z-rGp" secondAttribute="bottom" id="lW3-8J-oxI"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Di3-6z-rGp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="8Fc-Mh-0QS"/>
+                                <exclude reference="HRk-rm-88U"/>
+                                <exclude reference="d8u-41-xoW"/>
+                                <exclude reference="lW3-8J-oxI"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Di3-6z-rGp"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="8Fc-Mh-0QS"/>
+                                <include reference="HRk-rm-88U"/>
+                                <include reference="d8u-41-xoW"/>
+                                <include reference="lW3-8J-oxI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="vwt-FD-sgk"/>
+                    <connections>
+                        <outlet property="mainTableView" destination="Di3-6z-rGp" id="3P3-sd-dFV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1248" y="255"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3cG-J6-Z1l">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1mP-Cq-SlV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yGh-gr-DKs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="GZl-XS-0bg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NYo-6R-J5q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720" y="255"/>
+        </scene>
+    </scenes>
+</document>

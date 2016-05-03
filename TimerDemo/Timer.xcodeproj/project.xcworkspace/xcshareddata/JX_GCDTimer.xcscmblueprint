@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E79B7726B3FB84E2E3CFAB53A97B90508B775720",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E79B7726B3FB84E2E3CFAB53A97B90508B775720" : 0,
+    "F8477A4A835CAAD5F8EDC48F8B7ABB6677A009CD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F77FF458-A4FF-4E08-94B4-2E1A8291A4DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E79B7726B3FB84E2E3CFAB53A97B90508B775720" : "JX_GCDTimer\/",
+    "F8477A4A835CAAD5F8EDC48F8B7ABB6677A009CD" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JX_GCDTimer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JX_GCDTimerDemo\/JX_GCDTimer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Joeyqiushi\/JX_GCDTimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E79B7726B3FB84E2E3CFAB53A97B90508B775720"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrhyh\/iOS-Person-Collection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8477A4A835CAAD5F8EDC48F8B7ABB6677A009CD"
+    }
+  ]
+}
