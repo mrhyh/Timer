@@ -1,4 +1,7 @@
 # JX_GCDTimerManager
+
+在https://github.com/Joeyqiushi/JX_GCDTimer基础上添加了几个其他定时器的Demo.
+
 NSTimer like tool implemented using GCD.
 
 使用时只需将“JX_GCDTimerManager.h”和“JX_GCDTimerManager.m”加入工程。
