@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F37E633D1757049400802EBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37E633C1757049400802EBA /* UIKit.framework */; };
+		F37E633F1757049400802EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37E633E1757049400802EBA /* Foundation.framework */; };
+		F37E63411757049400802EBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37E63401757049400802EBA /* CoreGraphics.framework */; };
+		F37E63471757049400802EBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F37E63451757049400802EBA /* InfoPlist.strings */; };
+		F37E63491757049400802EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F37E63481757049400802EBA /* main.m */; };
+		F37E634D1757049400802EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F37E634C1757049400802EBA /* AppDelegate.m */; };
+		F37E634F1757049400802EBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F37E634E1757049400802EBA /* Default.png */; };
+		F37E63511757049400802EBA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F37E63501757049400802EBA /* Default@2x.png */; };
+		F37E63531757049400802EBA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F37E63521757049400802EBA /* Default-568h@2x.png */; };
+		F37E63561757049400802EBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37E63551757049400802EBA /* ViewController.m */; };
+		F37E63591757049400802EBA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F37E63571757049400802EBA /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F37E63381757049400802EBA /* TestForCancelPrePerformReq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForCancelPrePerformReq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37E633C1757049400802EBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F37E633E1757049400802EBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F37E63401757049400802EBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F37E63441757049400802EBA /* TestForCancelPrePerformReq-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForCancelPrePerformReq-Info.plist"; sourceTree = "<group>"; };
+		F37E63461757049400802EBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F37E63481757049400802EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F37E634A1757049400802EBA /* TestForCancelPrePerformReq-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestForCancelPrePerformReq-Prefix.pch"; sourceTree = "<group>"; };
+		F37E634B1757049400802EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F37E634C1757049400802EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F37E634E1757049400802EBA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F37E63501757049400802EBA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F37E63521757049400802EBA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F37E63541757049400802EBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F37E63551757049400802EBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F37E63581757049400802EBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37E63351757049400802EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E633D1757049400802EBA /* UIKit.framework in Frameworks */,
+				F37E633F1757049400802EBA /* Foundation.framework in Frameworks */,
+				F37E63411757049400802EBA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F37E632D1757049400802EBA = {
+			isa = PBXGroup;
+			children = (
+				F37E63421757049400802EBA /* TestForCancelPrePerformReq */,
+				F37E633B1757049400802EBA /* Frameworks */,
+				F37E63391757049400802EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37E63391757049400802EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37E63381757049400802EBA /* TestForCancelPrePerformReq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37E633B1757049400802EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F37E633C1757049400802EBA /* UIKit.framework */,
+				F37E633E1757049400802EBA /* Foundation.framework */,
+				F37E63401757049400802EBA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F37E63421757049400802EBA /* TestForCancelPrePerformReq */ = {
+			isa = PBXGroup;
+			children = (
+				F37E634B1757049400802EBA /* AppDelegate.h */,
+				F37E634C1757049400802EBA /* AppDelegate.m */,
+				F37E63541757049400802EBA /* ViewController.h */,
+				F37E63551757049400802EBA /* ViewController.m */,
+				F37E63571757049400802EBA /* ViewController.xib */,
+				F37E63431757049400802EBA /* Supporting Files */,
+			);
+			path = TestForCancelPrePerformReq;
+			sourceTree = "<group>";
+		};
+		F37E63431757049400802EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F37E63441757049400802EBA /* TestForCancelPrePerformReq-Info.plist */,
+				F37E63451757049400802EBA /* InfoPlist.strings */,
+				F37E63481757049400802EBA /* main.m */,
+				F37E634A1757049400802EBA /* TestForCancelPrePerformReq-Prefix.pch */,
+				F37E634E1757049400802EBA /* Default.png */,
+				F37E63501757049400802EBA /* Default@2x.png */,
+				F37E63521757049400802EBA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37E63371757049400802EBA /* TestForCancelPrePerformReq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37E635C1757049400802EBA /* Build configuration list for PBXNativeTarget "TestForCancelPrePerformReq" */;
+			buildPhases = (
+				F37E63341757049400802EBA /* Sources */,
+				F37E63351757049400802EBA /* Frameworks */,
+				F37E63361757049400802EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForCancelPrePerformReq;
+			productName = TestForCancelPrePerformReq;
+			productReference = F37E63381757049400802EBA /* TestForCancelPrePerformReq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37E632F1757049400802EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = samuel;
+			};
+			buildConfigurationList = F37E63321757049400802EBA /* Build configuration list for PBXProject "TestForCancelPrePerformReq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F37E632D1757049400802EBA;
+			productRefGroup = F37E63391757049400802EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37E63371757049400802EBA /* TestForCancelPrePerformReq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37E63361757049400802EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E63471757049400802EBA /* InfoPlist.strings in Resources */,
+				F37E634F1757049400802EBA /* Default.png in Resources */,
+				F37E63511757049400802EBA /* Default@2x.png in Resources */,
+				F37E63531757049400802EBA /* Default-568h@2x.png in Resources */,
+				F37E63591757049400802EBA /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37E63341757049400802EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37E63491757049400802EBA /* main.m in Sources */,
+				F37E634D1757049400802EBA /* AppDelegate.m in Sources */,
+				F37E63561757049400802EBA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F37E63451757049400802EBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37E63461757049400802EBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F37E63571757049400802EBA /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37E63581757049400802EBA /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F37E635A1757049400802EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F37E635B1757049400802EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37E635D1757049400802EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestForCancelPrePerformReq/TestForCancelPrePerformReq-Prefix.pch";
+				INFOPLIST_FILE = "TestForCancelPrePerformReq/TestForCancelPrePerformReq-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F37E635E1757049400802EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestForCancelPrePerformReq/TestForCancelPrePerformReq-Prefix.pch";
+				INFOPLIST_FILE = "TestForCancelPrePerformReq/TestForCancelPrePerformReq-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37E63321757049400802EBA /* Build configuration list for PBXProject "TestForCancelPrePerformReq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37E635A1757049400802EBA /* Debug */,
+				F37E635B1757049400802EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37E635C1757049400802EBA /* Build configuration list for PBXNativeTarget "TestForCancelPrePerformReq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37E635D1757049400802EBA /* Debug */,
+				F37E635E1757049400802EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F37E632F1757049400802EBA /* Project object */;
+}

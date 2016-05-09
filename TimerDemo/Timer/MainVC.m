@@ -30,8 +30,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    _nameMutableArray = @[@"测试"];
 }
 
 - (void)didReceiveMemoryWarning {
