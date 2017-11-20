@@ -9,7 +9,9 @@
 #import "NSTimerVC.h"
 
 @interface NSTimerVC ()
+
 @property (nonatomic, weak) NSTimer  *timer;
+
 @end
 
 @implementation NSTimerVC
